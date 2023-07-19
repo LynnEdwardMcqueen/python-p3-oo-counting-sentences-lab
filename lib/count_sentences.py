@@ -53,9 +53,3 @@ class MyString:
 
     value = property(get_value, set_value,)
   
-foo = MyString("I did not expect that.  I do not know what to say.  Are you sure you are ok with that??  Thank you!")
-print(foo.count_sentences())
-
-empty_string = MyString()
-print(empty_string.count_sentences())
-
